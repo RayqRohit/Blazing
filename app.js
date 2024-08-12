@@ -1,6 +1,17 @@
 // $(".center-p").scramble(4000, 20, "alphabet", true);
 // $(".center-p2").scramble(4000, 20, "alphabet", true);
 
+// locomotive scroll 
+
+// const scroll = new LocomotiveScroll({
+//     el: document.querySelector('#main'),
+//     smooth: true
+// });
+
+
+// gsap stagger effect animations
+
+
 function StaggerEffect() {
     var tl = gsap.timeline();
 
