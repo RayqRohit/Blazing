@@ -110,7 +110,7 @@ html {
     position: fixed;
     width: 100%;
     height: 100vh;
-   
+
 }
 
 .flex-p-content {
@@ -211,4 +211,136 @@ html {
 
 #img-five {
     background-image: url("./images/-5.jpg");
-}   
+}
+
+
+
+/* media query */
+
+/* Media Query for max-width: 900px */
+@media screen and (max-width: 900px) {
+
+    /* General font adjustments */
+    .center-p {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+
+    .center-p2 {
+        font-size: 1.3rem;
+    }
+
+    .nav a {
+        font-size: 1rem;
+    }
+
+    .heading-text {
+        font-size: 10rem;
+    }
+
+    /* Loader adjustments */
+    .loader {
+        gap: 1vw;
+    }
+
+    .text-loader {
+        font-size: 0.8rem;
+    }
+
+    .text-20,
+    .text-30,
+    .text-50,
+    .text-70,
+    .text-90,
+    .text-95,
+    .text-100 {
+        margin-left: calc(1vw + 10px);
+    }
+
+    /* Section image adjustments */
+    .section-img {
+        width: 40%;
+        background-size: 60%;
+        margin-left: 30%;
+    }
+
+    /* Position adjustments */
+    #one-text {
+        top: 70%;
+    }
+
+    .fixed-p {
+        height: 80vh;
+    }
+
+    .flex-p-content {
+        padding: 10px;
+    }
+}
+
+/* Media Query for max-width: 600px */
+@media screen and (max-width: 600px) {
+
+    /* General font adjustments */
+
+    .fixed-p {
+        height: 120vh;
+    }
+
+    .center-p {
+        font-size: 1.5rem;
+        letter-spacing: 0.5px;
+    }
+
+    .center-p2 {
+        font-size: 1.4rem;
+    }
+
+    .nav{
+        gap: 5vw;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    .heading-text {
+        font-size: 5rem;
+    }
+
+    /* Loader adjustments */
+    .loader {
+        gap: 2.1vw;
+    }
+
+    .text-loader {
+        font-size: 0.8rem;
+    }
+
+    .text-20,
+    .text-30,
+    .text-50,
+    .text-70,
+    .text-90,
+    .text-95,
+    .text-100 {
+        margin-left: calc(0.5vw + 5px);
+    }
+
+    /* Section image adjustments */
+    .section-img {
+        width: 70%;
+        background-size: 70%;
+        margin-left: 15%;
+    }
+
+    /* Position adjustments */
+    #one-text {
+        top: 140%;
+    }
+
+
+    .flex-p-content {
+        padding: 5px;
+    }
+}
