@@ -283,6 +283,10 @@ html {
 
     /* General font adjustments */
 
+    body{
+        width: 100%;
+    }
+
     .fixed-p {
         height: 100vh;
     }
@@ -310,7 +314,7 @@ html {
 
     /* Loader adjustments */
     .loader {
-        gap: 2.1vw;
+        gap: 1.7vw;
     }
 
     .text-loader {
@@ -343,7 +347,7 @@ html {
 
     /* Position adjustments */
     #one-text {
-        top: 140%;
+        top: 130%;
     }
 
 
