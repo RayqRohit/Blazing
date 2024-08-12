@@ -279,20 +279,18 @@ html {
 }
 
 /* Media Query for max-width: 600px */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 
     /* General font adjustments */
 
-    body {
-        width: 100%;
-    }
+    
 
     .fixed-p {
         height: 100vh;
     }
 
     .center-p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         letter-spacing: 0.5px;
     }
 
@@ -309,16 +307,16 @@ html {
     }
 
     .heading-text {
-        font-size: 5rem;
+        font-size: 3.7rem;
     }
 
     /* Loader adjustments */
     .loader {
-        gap: 1.7vw;
+        gap: 1vw;
     }
 
     .text-loader {
-        font-size: 0.8rem;
+        font-size: 0.7rem;
     }
 
     .text-20,
@@ -333,9 +331,13 @@ html {
 
     /* Section image adjustments */
     .section-img {
-        width: 70%;
+        /* width: 70%;
         background-size: 70%;
-        margin-left: 15%;
+        margin-left: 15%; */
+
+        width: 100%; /* Ensure image does not exceed viewport */
+        background-size: cover; /* Ensure background image covers the container */
+        margin-left: 0; /* 
     }
 
     /* @media screen and (max-width: 600px) {
@@ -347,11 +349,15 @@ html {
 
     /* Position adjustments */
     #one-text {
-        top: 130%;
+        top: 100%;
     }
 
+    body {
+        overflow-x: hidden; /* Prevent horizontal scrollbar */
+    }
 
+/* 
     .flex-p-content {
         padding: 5px;
-    }
-}
+    } */
+}}
