@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dancing+Script:wght@400;600&family=Kalam:wght@700&family=Kanit&family=Kaushan+Script&family=Merriweather&family=Montserrat:wght@400;500&family=Poor+Story&family=Poppins:wght@400;700&family=Roboto&family=Sacramento&family=Sigmar&family=Ubuntu&display=swap');
+
+
+@font-face {
+    font-family: mainFont;
+    src: url(./Assets/Fonts/MonumentExtended-Regular.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: mainFont;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    /* overflow-x: hidden; */
+}
+
+/* 
+:root {
+    --header-font: "Poppins", sans-serif;
+    --body-font: "Montserrat", sans-serif;
+} */
+
+
+/* utilities */
+
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.d-flex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/* main code */
+
+
+.loader {
+    width: 100%;
+    height: 100vh;
+    font-family: var(--body-font);
+    gap: 1.5vw;
+    justify-content: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 99999999;
+
+}
+
+.text-loader {
+    font-weight: bold;
+    opacity: 0;
+
+}
+
+.fixed-p {
+
+    color: #fff;
+}
+
+.text-20 {
+    margin-left: 25px;
+}
+
+.text-30 {
+    margin-left: 35px;
+}
+
+.text-50 {
+    margin-left: 75px;
+}
+
+.text-70 {
+    margin-left: 100px;
+}
+
+.text-90 {
+    margin-left: 140px;
+}
+
+.text-95 {
+    margin-left: 190px;
+}
+
+.text-100 {
+    margin-left: 220px;
+}
+
+
+
+
+.fixed-p {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+   
+}
+
+.flex-p-content {
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center-p {
+    text-align: center;
+    z-index: 999;
+    font-size: 2rem;
+    /* font-weight: bold; */
+    color: #fff;
+    letter-spacing: 2px;
+    text-decoration: none;
+    pointer-events: none;
+}
+
+.center-p2 {
+    text-align: center;
+    z-index: 999;
+    font-size: 1.7rem;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    pointer-events: none;
+
+}
+
+.nav {
+    margin-top: 3vh;
+    gap: 2vw;
+}
+
+.nav a {
+    /* text-decoration: none; */
+    z-index: 999;
+    font-size: 1.2rem;
+    color: #fff;
+
+}
+
+/* main section */
+
+.section {
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    font-size: 3rem;
+    font-family: var(--header-font);
+
+}
+
+.heading-text {
+    font-size: 14rem;
+    color: #fff;
+
+}
+
+#one-text {
+    position: absolute;
+    top: 120%;
+}
+
+.section-img {
+    position: relative;
+    margin-left: 35%;
+    width: 30%;
+    height: 100vh;
+    /* background-image: url(https://images.unsplash.com/photo-1718573577441-61fb326c1517?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    z-index: 99999;
+    cursor: pointer;
+
+}
+
+#img-one {
+    background-image: url("./images/-1.jpg");
+}
+
+#img-two {
+    background-image: url("./images/-2.jpg");
+}
+
+#img-three {
+    background-image: url("./images/-3.jpg");
+}
+
+#img-four {
+    background-image: url("./images/-4.jpg");
+}
+
+#img-five {
+    background-image: url("./images/-5.jpg");
+}   
